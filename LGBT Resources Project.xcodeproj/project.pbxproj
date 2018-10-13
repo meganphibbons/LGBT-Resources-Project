@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		446AB76A21727255005E625A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446AB76921727255005E625A /* AppDelegate.swift */; };
+		446AB76C21727255005E625A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446AB76B21727255005E625A /* ViewController.swift */; };
+		446AB76F21727255005E625A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446AB76D21727255005E625A /* Main.storyboard */; };
+		446AB77121727257005E625A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 446AB77021727257005E625A /* Assets.xcassets */; };
+		446AB77421727257005E625A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446AB77221727257005E625A /* LaunchScreen.storyboard */; };
+		446AB77F21727257005E625A /* LGBT_Resources_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446AB77E21727257005E625A /* LGBT_Resources_ProjectTests.swift */; };
+		446AB78A21727257005E625A /* LGBT_Resources_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446AB78921727257005E625A /* LGBT_Resources_ProjectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		446AB77B21727257005E625A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 446AB75E21727255005E625A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 446AB76521727255005E625A;
+			remoteInfo = "LGBT Resources Project";
+		};
+		446AB78621727257005E625A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 446AB75E21727255005E625A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 446AB76521727255005E625A;
+			remoteInfo = "LGBT Resources Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		446AB76621727255005E625A /* LGBT Resources Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LGBT Resources Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		446AB76921727255005E625A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		446AB76B21727255005E625A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		446AB76E21727255005E625A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		446AB77021727257005E625A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		446AB77321727257005E625A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		446AB77521727257005E625A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		446AB77A21727257005E625A /* LGBT Resources ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LGBT Resources ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		446AB77E21727257005E625A /* LGBT_Resources_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGBT_Resources_ProjectTests.swift; sourceTree = "<group>"; };
+		446AB78021727257005E625A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		446AB78521727257005E625A /* LGBT Resources ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LGBT Resources ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		446AB78921727257005E625A /* LGBT_Resources_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGBT_Resources_ProjectUITests.swift; sourceTree = "<group>"; };
+		446AB78B21727257005E625A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		446AB76321727255005E625A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		446AB77721727257005E625A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		446AB78221727257005E625A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		446AB75D21727255005E625A = {
+			isa = PBXGroup;
+			children = (
+				446AB76821727255005E625A /* LGBT Resources Project */,
+				446AB77D21727257005E625A /* LGBT Resources ProjectTests */,
+				446AB78821727257005E625A /* LGBT Resources ProjectUITests */,
+				446AB76721727255005E625A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		446AB76721727255005E625A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				446AB76621727255005E625A /* LGBT Resources Project.app */,
+				446AB77A21727257005E625A /* LGBT Resources ProjectTests.xctest */,
+				446AB78521727257005E625A /* LGBT Resources ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		446AB76821727255005E625A /* LGBT Resources Project */ = {
+			isa = PBXGroup;
+			children = (
+				446AB76921727255005E625A /* AppDelegate.swift */,
+				446AB76B21727255005E625A /* ViewController.swift */,
+				446AB76D21727255005E625A /* Main.storyboard */,
+				446AB77021727257005E625A /* Assets.xcassets */,
+				446AB77221727257005E625A /* LaunchScreen.storyboard */,
+				446AB77521727257005E625A /* Info.plist */,
+			);
+			path = "LGBT Resources Project";
+			sourceTree = "<group>";
+		};
+		446AB77D21727257005E625A /* LGBT Resources ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				446AB77E21727257005E625A /* LGBT_Resources_ProjectTests.swift */,
+				446AB78021727257005E625A /* Info.plist */,
+			);
+			path = "LGBT Resources ProjectTests";
+			sourceTree = "<group>";
+		};
+		446AB78821727257005E625A /* LGBT Resources ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				446AB78921727257005E625A /* LGBT_Resources_ProjectUITests.swift */,
+				446AB78B21727257005E625A /* Info.plist */,
+			);
+			path = "LGBT Resources ProjectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		446AB76521727255005E625A /* LGBT Resources Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 446AB78E21727257005E625A /* Build configuration list for PBXNativeTarget "LGBT Resources Project" */;
+			buildPhases = (
+				446AB76221727255005E625A /* Sources */,
+				446AB76321727255005E625A /* Frameworks */,
+				446AB76421727255005E625A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LGBT Resources Project";
+			productName = "LGBT Resources Project";
+			productReference = 446AB76621727255005E625A /* LGBT Resources Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		446AB77921727257005E625A /* LGBT Resources ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 446AB79121727257005E625A /* Build configuration list for PBXNativeTarget "LGBT Resources ProjectTests" */;
+			buildPhases = (
+				446AB77621727257005E625A /* Sources */,
+				446AB77721727257005E625A /* Frameworks */,
+				446AB77821727257005E625A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				446AB77C21727257005E625A /* PBXTargetDependency */,
+			);
+			name = "LGBT Resources ProjectTests";
+			productName = "LGBT Resources ProjectTests";
+			productReference = 446AB77A21727257005E625A /* LGBT Resources ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		446AB78421727257005E625A /* LGBT Resources ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 446AB79421727257005E625A /* Build configuration list for PBXNativeTarget "LGBT Resources ProjectUITests" */;
+			buildPhases = (
+				446AB78121727257005E625A /* Sources */,
+				446AB78221727257005E625A /* Frameworks */,
+				446AB78321727257005E625A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				446AB78721727257005E625A /* PBXTargetDependency */,
+			);
+			name = "LGBT Resources ProjectUITests";
+			productName = "LGBT Resources ProjectUITests";
+			productReference = 446AB78521727257005E625A /* LGBT Resources ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		446AB75E21727255005E625A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "HackDuke 2018";
+				TargetAttributes = {
+					446AB76521727255005E625A = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					446AB77921727257005E625A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 446AB76521727255005E625A;
+					};
+					446AB78421727257005E625A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 446AB76521727255005E625A;
+					};
+				};
+			};
+			buildConfigurationList = 446AB76121727255005E625A /* Build configuration list for PBXProject "LGBT Resources Project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 446AB75D21727255005E625A;
+			productRefGroup = 446AB76721727255005E625A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				446AB76521727255005E625A /* LGBT Resources Project */,
+				446AB77921727257005E625A /* LGBT Resources ProjectTests */,
+				446AB78421727257005E625A /* LGBT Resources ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		446AB76421727255005E625A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446AB77421727257005E625A /* LaunchScreen.storyboard in Resources */,
+				446AB77121727257005E625A /* Assets.xcassets in Resources */,
+				446AB76F21727255005E625A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		446AB77821727257005E625A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		446AB78321727257005E625A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		446AB76221727255005E625A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446AB76C21727255005E625A /* ViewController.swift in Sources */,
+				446AB76A21727255005E625A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		446AB77621727257005E625A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446AB77F21727257005E625A /* LGBT_Resources_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		446AB78121727257005E625A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446AB78A21727257005E625A /* LGBT_Resources_ProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		446AB77C21727257005E625A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 446AB76521727255005E625A /* LGBT Resources Project */;
+			targetProxy = 446AB77B21727257005E625A /* PBXContainerItemProxy */;
+		};
+		446AB78721727257005E625A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 446AB76521727255005E625A /* LGBT Resources Project */;
+			targetProxy = 446AB78621727257005E625A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		446AB76D21727255005E625A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				446AB76E21727255005E625A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		446AB77221727257005E625A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				446AB77321727257005E625A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		446AB78C21727257005E625A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		446AB78D21727257005E625A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		446AB78F21727257005E625A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LGBT Resources Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HackDuke.LGBT-Resources-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		446AB79021727257005E625A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LGBT Resources Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HackDuke.LGBT-Resources-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		446AB79221727257005E625A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LGBT Resources ProjectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HackDuke.LGBT-Resources-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGBT Resources Project.app/LGBT Resources Project";
+			};
+			name = Debug;
+		};
+		446AB79321727257005E625A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LGBT Resources ProjectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HackDuke.LGBT-Resources-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGBT Resources Project.app/LGBT Resources Project";
+			};
+			name = Release;
+		};
+		446AB79521727257005E625A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LGBT Resources ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HackDuke.LGBT-Resources-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LGBT Resources Project";
+			};
+			name = Debug;
+		};
+		446AB79621727257005E625A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LGBT Resources ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HackDuke.LGBT-Resources-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LGBT Resources Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		446AB76121727255005E625A /* Build configuration list for PBXProject "LGBT Resources Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446AB78C21727257005E625A /* Debug */,
+				446AB78D21727257005E625A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		446AB78E21727257005E625A /* Build configuration list for PBXNativeTarget "LGBT Resources Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446AB78F21727257005E625A /* Debug */,
+				446AB79021727257005E625A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		446AB79121727257005E625A /* Build configuration list for PBXNativeTarget "LGBT Resources ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446AB79221727257005E625A /* Debug */,
+				446AB79321727257005E625A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		446AB79421727257005E625A /* Build configuration list for PBXNativeTarget "LGBT Resources ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446AB79521727257005E625A /* Debug */,
+				446AB79621727257005E625A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 446AB75E21727255005E625A /* Project object */;
+}
