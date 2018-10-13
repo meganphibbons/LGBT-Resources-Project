@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		307B7EE0217288A20070D9EE /* Orientations View Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307B7EDF217288A20070D9EE /* Orientations View Controller.swift */; };
 		446AB76A21727255005E625A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446AB76921727255005E625A /* AppDelegate.swift */; };
 		446AB76C21727255005E625A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446AB76B21727255005E625A /* ViewController.swift */; };
 		446AB76F21727255005E625A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446AB76D21727255005E625A /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		307B7EDF217288A20070D9EE /* Orientations View Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Orientations View Controller.swift"; sourceTree = "<group>"; };
 		446AB76621727255005E625A /* LGBT Resources Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LGBT Resources Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		446AB76921727255005E625A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		446AB76B21727255005E625A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,7 +123,6 @@
 			children = (
 				446AB7972172852C005E625A /* ViewControllers */,
 				446AB76921727255005E625A /* AppDelegate.swift */,
-				446AB76B21727255005E625A /* ViewController.swift */,
 				446AB76D21727255005E625A /* Main.storyboard */,
 				446AB77021727257005E625A /* Assets.xcassets */,
 				446AB77221727257005E625A /* LaunchScreen.storyboard */,
@@ -153,6 +154,8 @@
 			children = (
 				B62C2D0521728AE600CC0E1C /* eventSB.storyboard */,
 				B62C2D032172894B00CC0E1C /* EventViewController.swift */,
+				446AB76B21727255005E625A /* ViewController.swift */,
+				307B7EDF217288A20070D9EE /* Orientations View Controller.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				446AB76C21727255005E625A /* ViewController.swift in Sources */,
 				446AB76A21727255005E625A /* AppDelegate.swift in Sources */,
 				B62C2D042172894B00CC0E1C /* EventViewController.swift in Sources */,
+				307B7EE0217288A20070D9EE /* Orientations View Controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
