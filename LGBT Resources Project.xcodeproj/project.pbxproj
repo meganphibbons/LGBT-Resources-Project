@@ -17,6 +17,7 @@
 		446AB78A21727257005E625A /* LGBT_Resources_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446AB78921727257005E625A /* LGBT_Resources_ProjectUITests.swift */; };
 		446AB7AF2172AC7C005E625A /* eventSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446AB7AE2172AC7C005E625A /* eventSB.storyboard */; };
 		446AB7B12172AC89005E625A /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446AB7B02172AC88005E625A /* EventViewController.swift */; };
+		446AB7B32172B054005E625A /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446AB7B22172B054005E625A /* Discover.storyboard */; };
 		B62C2D0B21728C6300CC0E1C /* Orange Button.png in Resources */ = {isa = PBXBuildFile; fileRef = B62C2D0721728C6200CC0E1C /* Orange Button.png */; };
 		B62C2D0C21728C6300CC0E1C /* Red Button.png in Resources */ = {isa = PBXBuildFile; fileRef = B62C2D0821728C6300CC0E1C /* Red Button.png */; };
 		B62C2D0D21728C6300CC0E1C /* Purple Button.png in Resources */ = {isa = PBXBuildFile; fileRef = B62C2D0921728C6300CC0E1C /* Purple Button.png */; };
@@ -59,6 +60,7 @@
 		446AB78B21727257005E625A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		446AB7AE2172AC7C005E625A /* eventSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = eventSB.storyboard; sourceTree = "<group>"; };
 		446AB7B02172AC88005E625A /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		446AB7B22172B054005E625A /* Discover.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
 		B62C2D0721728C6200CC0E1C /* Orange Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orange Button.png"; sourceTree = "<group>"; };
 		B62C2D0821728C6300CC0E1C /* Red Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red Button.png"; sourceTree = "<group>"; };
 		B62C2D0921728C6300CC0E1C /* Purple Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Purple Button.png"; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				446AB77021727257005E625A /* Assets.xcassets */,
 				446AB77221727257005E625A /* LaunchScreen.storyboard */,
 				446AB77521727257005E625A /* Info.plist */,
+				446AB7B22172B054005E625A /* Discover.storyboard */,
 			);
 			path = "LGBT Resources Project";
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				B62C2D0B21728C6300CC0E1C /* Orange Button.png in Resources */,
 				B62C2D0C21728C6300CC0E1C /* Red Button.png in Resources */,
 				446AB7AF2172AC7C005E625A /* eventSB.storyboard in Resources */,
+				446AB7B32172B054005E625A /* Discover.storyboard in Resources */,
 				446AB77421727257005E625A /* LaunchScreen.storyboard in Resources */,
 				B62C2D1221728C6C00CC0E1C /* Blue Button.png in Resources */,
 				B62C2D0E21728C6300CC0E1C /* Yellow Button.png in Resources */,
