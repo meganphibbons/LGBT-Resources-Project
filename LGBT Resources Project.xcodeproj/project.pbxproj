@@ -97,6 +97,7 @@
 		446AB76821727255005E625A /* LGBT Resources Project */ = {
 			isa = PBXGroup;
 			children = (
+				446AB7972172852C005E625A /* ViewControllers */,
 				446AB76921727255005E625A /* AppDelegate.swift */,
 				446AB76B21727255005E625A /* ViewController.swift */,
 				446AB76D21727255005E625A /* Main.storyboard */,
@@ -123,6 +124,13 @@
 				446AB78B21727257005E625A /* Info.plist */,
 			);
 			path = "LGBT Resources ProjectUITests";
+			sourceTree = "<group>";
+		};
+		446AB7972172852C005E625A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
