@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Allies View Controller-->
         <scene sceneID="1pq-6v-bHE">
             <objects>
-                <viewController id="Gzy-HK-4ir" sceneMemberID="viewController">
+                <viewController id="Gzy-HK-4ir" customClass="AlliesViewController" customModule="LGBT_Resources_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FXT-lX-NoB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="1425"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -113,7 +113,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s7a-iD-mmY">
                                         <rect key="frame" x="8" y="323" width="359" height="288"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <mutableString key="text">If your child has come out to you, it is essential that you show your support of them, regardless of what others in the family may say. Many children feel conflicted when coming out to their parents. Disowning your child or kicking them out is NOT a solution. Conversion therapy is NOT a solution. Instead, it is necessary to educate yourself and learn to love your child for who they are. Do not doubt your child, as they have likely thought a lot about their identity before sharing, and do not need judgment. Above all else, your child is still your child. </mutableString>
+                                        <string key="text">If your child has come out to you, it is essential that you show your support of them, regardless of what others in the family may say. Many children feel conflicted when coming out to their parents. Disowning your child or kicking them out is NOT a solution. Conversion therapy is NOT a solution. Instead, it is necessary to educate yourself and learn to love your child for who they are. Do not doubt your child, as they have likely thought a lot about their identity before sharing, and do not need judgment. Above all else, your child is still your child. </string>
                                         <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -137,7 +137,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fzr-77-1ov">
                                         <rect key="frame" x="8" y="1120" width="359" height="333"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <mutableString key="text">A significant other coming out to you can be a very difficult time. For some relationships, this could mean that it is time for things to end. For others, it may cause a serious change in the relationship. Overall, it is necessary to openly communicate with your significant other to determine what your plans are for the relationship. If you feel hurt, try to not place blame on your significant other, and instead have a mature discussion and try to find a resolution that is the best for you and your significant other.</mutableString>
+                                        <string key="text">A significant other coming out to you can be a very difficult time. For some relationships, this could mean that it is time for things to end. For others, it may cause a serious change in the relationship. Overall, it is necessary to openly communicate with your significant other to determine what your plans are for the relationship. If you feel hurt, try to not place blame on your significant other, and instead have a mature discussion and try to find a resolution that is the best for you and your significant other.</string>
                                         <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
