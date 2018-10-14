@@ -22,8 +22,6 @@
 		446AB7B12172AC89005E625A /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446AB7B02172AC88005E625A /* EventViewController.swift */; };
 		446AB7B32172B054005E625A /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446AB7B22172B054005E625A /* Discover.storyboard */; };
 		446AB7B52172C11A005E625A /* Allies.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446AB7B42172C11A005E625A /* Allies.storyboard */; };
-		A8746265217289820009E55E /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8746264217289820009E55E /* ResourcesViewController.swift */; };
-		A874626721728B320009E55E /* ResourcesSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A874626621728B320009E55E /* ResourcesSB.storyboard */; };
 		A87462692172BAD60009E55E /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87462682172BAD60009E55E /* NewsViewController.swift */; };
 		A874626B2172BAE70009E55E /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A874626A2172BAE70009E55E /* HelpViewController.swift */; };
 		A874626D2172BAFD0009E55E /* LocalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A874626C2172BAFD0009E55E /* LocalViewController.swift */; };
@@ -42,6 +40,7 @@
 		BAA881F821739A9700AD88CB /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA881F721739A9700AD88CB /* HomePageViewController.swift */; };
 		BAA881FA21739AC100AD88CB /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA881F921739AC100AD88CB /* DiscoverViewController.swift */; };
 		BAA881FC21739ADE00AD88CB /* AlliesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA881FB21739ADE00AD88CB /* AlliesViewController.swift */; };
+		BAA8822521739F4900AD88CB /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA8822421739F4900AD88CB /* ResourcesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,8 +82,6 @@
 		446AB7B02172AC88005E625A /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
 		446AB7B22172B054005E625A /* Discover.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
 		446AB7B42172C11A005E625A /* Allies.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Allies.storyboard; sourceTree = "<group>"; };
-		A8746264217289820009E55E /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResourcesViewController.swift; path = "../../../../../Volumes/users/a/ad356/LGBT-Resources-Project/ResourcesViewController.swift"; sourceTree = "<group>"; };
-		A874626621728B320009E55E /* ResourcesSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ResourcesSB.storyboard; path = "../../../../../Volumes/users/a/ad356/LGBT-Resources-Project/ResourcesSB.storyboard"; sourceTree = "<group>"; };
 		A87462682172BAD60009E55E /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		A874626A2172BAE70009E55E /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 		A874626C2172BAFD0009E55E /* LocalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +101,7 @@
 		BAA881F721739A9700AD88CB /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		BAA881F921739AC100AD88CB /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
 		BAA881FB21739ADE00AD88CB /* AlliesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlliesViewController.swift; sourceTree = "<group>"; };
+		BAA8822421739F4900AD88CB /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,8 +198,6 @@
 		446AB7972172852C005E625A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				A8746264217289820009E55E /* ResourcesViewController.swift */,
-				A874626621728B320009E55E /* ResourcesSB.storyboard */,
 				446AB7B02172AC88005E625A /* EventViewController.swift */,
 				446AB76B21727255005E625A /* ViewController.swift */,
 				307B7EDF217288A20070D9EE /* Orientations View Controller.swift */,
@@ -215,6 +211,7 @@
 				BAA881F721739A9700AD88CB /* HomePageViewController.swift */,
 				BAA881F921739AC100AD88CB /* DiscoverViewController.swift */,
 				BAA881FB21739ADE00AD88CB /* AlliesViewController.swift */,
+				BAA8822421739F4900AD88CB /* ResourcesViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -328,7 +325,6 @@
 				B62C2D0C21728C6300CC0E1C /* Red Button.png in Resources */,
 				BAA881F6217398A000AD88CB /* Main.storyboard in Resources */,
 				446AB77421727257005E625A /* LaunchScreen.storyboard in Resources */,
-				A874626721728B320009E55E /* ResourcesSB.storyboard in Resources */,
 				446AB7AF2172AC7C005E625A /* eventSB.storyboard in Resources */,
 				446AB7B32172B054005E625A /* Discover.storyboard in Resources */,
 				446AB77421727257005E625A /* LaunchScreen.storyboard in Resources */,
@@ -366,7 +362,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A874626B2172BAE70009E55E /* HelpViewController.swift in Sources */,
-				A8746265217289820009E55E /* ResourcesViewController.swift in Sources */,
 				BAA881F821739A9700AD88CB /* HomePageViewController.swift in Sources */,
 				446AB76C21727255005E625A /* ViewController.swift in Sources */,
 				446AB7B12172AC89005E625A /* EventViewController.swift in Sources */,
@@ -376,6 +371,7 @@
 				BAA881FA21739AC100AD88CB /* DiscoverViewController.swift in Sources */,
 				A874626D2172BAFD0009E55E /* LocalViewController.swift in Sources */,
 				BAA34ABB2172DAAF001CBBD2 /* ConnectViewController.swift in Sources */,
+				BAA8822521739F4900AD88CB /* ResourcesViewController.swift in Sources */,
 				446AB76C21727255005E625A /* ViewController.swift in Sources */,
 				446AB7B12172AC89005E625A /* EventViewController.swift in Sources */,
 				30181A702172C434001776C0 /* Gender_Identities.swift in Sources */,

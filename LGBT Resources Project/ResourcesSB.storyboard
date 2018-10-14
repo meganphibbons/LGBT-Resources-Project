@@ -33,7 +33,7 @@
                                     <segue destination="XUJ-8y-i4M" kind="show" id="w9E-0h-qPQ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z5H-B0-ach">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z5H-B0-ach" customClass="ResourcesViewController">
                                 <rect key="frame" x="112" y="353" width="300" height="300"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="RZb-sF-Ybh"/>
@@ -576,6 +576,6 @@
         <image name="Yellow Button.png" width="1130" height="1206"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="PVT-wQ-hIH"/>
+        <segue reference="nQz-XY-GnD"/>
     </inferredMetricsTieBreakers>
 </document>

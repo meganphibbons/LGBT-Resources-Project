@@ -9,6 +9,22 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Gender_Identities-->
+        <scene sceneID="e0c-qc-DUj">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Discover" referencedIdentifier="Gender_Identities" id="njS-5b-L30" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N3o-gT-H1E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-484" y="-41"/>
+        </scene>
+        <!--AlliesViewController-->
+        <scene sceneID="Nku-gm-JXq">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Discover" referencedIdentifier="AlliesViewController" id="ZVh-hE-mxr" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kag-LP-gs8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-458" y="315"/>
+        </scene>
         <!--Discover View Controller-->
         <scene sceneID="DbC-8e-Gyq">
             <objects>
@@ -28,6 +44,9 @@
                                 <rect key="frame" x="-45" y="14" width="308" height="311"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="HELFDIFHSDAFIHASOIHJF" image="Purple Button.png"/>
+                                <connections>
+                                    <segue destination="njS-5b-L30" kind="show" id="Pad-qE-ETd"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gender Identities" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p4W-xV-2Tv">
                                 <rect key="frame" x="28" y="110" width="162" height="119"/>
@@ -40,6 +59,9 @@
                                 <rect key="frame" x="99" y="164" width="325" height="327"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Orange Button.png"/>
+                                <connections>
+                                    <segue destination="Ngj-VI-79W" kind="show" id="sLH-vW-6WP"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sexual and Romantic Orientations" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R0M-H0-Vu6">
                                 <rect key="frame" x="181" y="233" width="160" height="189"/>
@@ -52,6 +74,9 @@
                                 <rect key="frame" x="-57" y="320" width="333" height="347"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Green Button.png"/>
+                                <connections>
+                                    <segue destination="ZVh-hE-mxr" kind="show" id="2Sx-16-9z8"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Allies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LVk-fP-eFN">
                                 <rect key="frame" x="79" y="471" width="61" height="44"/>
@@ -68,6 +93,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F6W-tW-T2b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="112.8" y="151.57421289355324"/>
+        </scene>
+        <!--Orientations_VIew_Controller-->
+        <scene sceneID="lJr-6T-ZNb">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Discover" referencedIdentifier="Orientations_VIew_Controller" id="Ngj-VI-79W" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="imZ-B4-kgl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="726" y="151"/>
         </scene>
     </scenes>
     <resources>
