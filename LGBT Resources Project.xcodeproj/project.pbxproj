@@ -23,6 +23,7 @@
 		B62C2D0E21728C6300CC0E1C /* Yellow Button.png in Resources */ = {isa = PBXBuildFile; fileRef = B62C2D0A21728C6300CC0E1C /* Yellow Button.png */; };
 		B62C2D1121728C6C00CC0E1C /* Green Button.png in Resources */ = {isa = PBXBuildFile; fileRef = B62C2D0F21728C6C00CC0E1C /* Green Button.png */; };
 		B62C2D1221728C6C00CC0E1C /* Blue Button.png in Resources */ = {isa = PBXBuildFile; fileRef = B62C2D1021728C6C00CC0E1C /* Blue Button.png */; };
+		B6DC33812172B74600339A4D /* EventsLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DC33802172B74600339A4D /* EventsLocationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		B62C2D0A21728C6300CC0E1C /* Yellow Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Yellow Button.png"; sourceTree = "<group>"; };
 		B62C2D0F21728C6C00CC0E1C /* Green Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green Button.png"; sourceTree = "<group>"; };
 		B62C2D1021728C6C00CC0E1C /* Blue Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue Button.png"; sourceTree = "<group>"; };
+		B6DC33802172B74600339A4D /* EventsLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsLocationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 				446AB7B02172AC88005E625A /* EventViewController.swift */,
 				446AB76B21727255005E625A /* ViewController.swift */,
 				307B7EDF217288A20070D9EE /* Orientations View Controller.swift */,
+				B6DC33802172B74600339A4D /* EventsLocationViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				446AB7B12172AC89005E625A /* EventViewController.swift in Sources */,
 				446AB76A21727255005E625A /* AppDelegate.swift in Sources */,
 				307B7EE0217288A20070D9EE /* Orientations View Controller.swift in Sources */,
+				B6DC33812172B74600339A4D /* EventsLocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
