@@ -9,7 +9,12 @@
 import UIKit
 
 class HelpViewController: UIViewController {
-
+    @IBOutlet weak var LGBTHotlineButton: UIButton!
+    @IBOutlet weak var sevenCupsButton: UIButton!
+    
+    @IBOutlet weak var imAliveButton: UIButton!
+    @IBOutlet weak var BackButton: UIButton!
+    @IBOutlet weak var NSPHotlineButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -32,4 +37,22 @@ class HelpViewController: UIViewController {
     }
     */
 
+    @IBAction func NSPHotlineButtonPressed(_ sender: Any) {
+        let url: NSURL = URL(string: "TEL://18888534564")! as NSURL
+        UIApplication.shared.open(url as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func LGBTHotlineButtonPressed(_ sender: Any) {
+        let url: NSURL = URL(string: "TEL://18002738255")! as NSURL
+        UIApplication.shared.open(url as URL, options: [:], completionHandler: nil)
+    }
+    //https://www.7cups.com
+    @IBAction func imAliveButtonPressed(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://www.imalive.org")! as URL, options: [:], completionHandler: nil)
+
+    }
+    @IBAction func BackButtonPressed(_ sender: Any) {
+    }
+    @IBAction func sevenCupsButtonPressed(_ sender: Any) {
+         UIApplication.shared.open(URL(string: "https://www.7cups.com")! as URL, options: [:], completionHandler: nil)
+    }
 }
