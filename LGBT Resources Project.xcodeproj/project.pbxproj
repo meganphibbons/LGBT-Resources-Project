@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		30181A6C2172AECB001776C0 /* Orientations_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30181A6B2172AECB001776C0 /* Orientations_Storyboard.storyboard */; };
+		30181A6E2172C3F6001776C0 /* Gender_Identities_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30181A6D2172C3F6001776C0 /* Gender_Identities_Storyboard.storyboard */; };
+		30181A702172C434001776C0 /* Gender_Identities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30181A6F2172C434001776C0 /* Gender_Identities.swift */; };
 		30181A722172C5E5001776C0 /* Asexual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30181A712172C5E5001776C0 /* Asexual.swift */; };
 		307B7EE0217288A20070D9EE /* Orientations View Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307B7EDF217288A20070D9EE /* Orientations View Controller.swift */; };
 		446AB76A21727255005E625A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446AB76921727255005E625A /* AppDelegate.swift */; };
@@ -20,11 +22,32 @@
 		446AB7AF2172AC7C005E625A /* eventSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446AB7AE2172AC7C005E625A /* eventSB.storyboard */; };
 		446AB7B12172AC89005E625A /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446AB7B02172AC88005E625A /* EventViewController.swift */; };
 		446AB7B32172B054005E625A /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446AB7B22172B054005E625A /* Discover.storyboard */; };
+		B62C2D0B21728C6300CC0E1C /* Orange Button.png in Resources */ = {isa = PBXBuildFile; fileRef = B62C2D0721728C6200CC0E1C /* Orange Button.png */; };
+		B62C2D0C21728C6300CC0E1C /* Red Button.png in Resources */ = {isa = PBXBuildFile; fileRef = B62C2D0821728C6300CC0E1C /* Red Button.png */; };
+		B62C2D0D21728C6300CC0E1C /* Purple Button.png in Resources */ = {isa = PBXBuildFile; fileRef = B62C2D0921728C6300CC0E1C /* Purple Button.png */; };
+		B62C2D0E21728C6300CC0E1C /* Yellow Button.png in Resources */ = {isa = PBXBuildFile; fileRef = B62C2D0A21728C6300CC0E1C /* Yellow Button.png */; };
+		B62C2D1121728C6C00CC0E1C /* Green Button.png in Resources */ = {isa = PBXBuildFile; fileRef = B62C2D0F21728C6C00CC0E1C /* Green Button.png */; };
+		B62C2D1221728C6C00CC0E1C /* Blue Button.png in Resources */ = {isa = PBXBuildFile; fileRef = B62C2D1021728C6C00CC0E1C /* Blue Button.png */; };
+		B6DC33892172D62E00339A4D /* genderqueer.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DC33842172D62D00339A4D /* genderqueer.png */; };
+		B6DC338A2172D62E00339A4D /* agender.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DC33852172D62D00339A4D /* agender.png */; };
+		B6DC338B2172D62E00339A4D /* intersex.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DC33862172D62D00339A4D /* intersex.png */; };
+		B6DC338C2172D62E00339A4D /* transgender.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DC33872172D62D00339A4D /* transgender.png */; };
+		B6DC338D2172D62E00339A4D /* genderfluid.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DC33882172D62D00339A4D /* genderfluid.png */; };
+		B6DC33922172EE2200339A4D /* bigender.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DC338E2172EE2100339A4D /* bigender.png */; };
+		B6DC33932172EE2200339A4D /* androgynous.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DC338F2172EE2200339A4D /* androgynous.png */; };
+		B6DC33942172EE2200339A4D /* cisgender.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DC33902172EE2200339A4D /* cisgender.png */; };
+		B6DC33952172EE2200339A4D /* binary.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DC33912172EE2200339A4D /* binary.png */; };
+		B6DC339A2172F06300339A4D /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DC33962172F06100339A4D /* green.png */; };
+		B6DC339B2172F06300339A4D /* nonconf.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DC33972172F06200339A4D /* nonconf.png */; };
+		B6DC339C2172F06300339A4D /* grey.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DC33982172F06200339A4D /* grey.png */; };
+		B6DC339D2172F06300339A4D /* purple.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DC33992172F06200339A4D /* purple.png */; };
+		B6DC33A42172F2AD00339A4D /* question.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DC339E2172F2AB00339A4D /* question.png */; };
+		B6DC33A52172F2AD00339A4D /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DC339F2172F2AB00339A4D /* yellow.png */; };
+		B6DC33A62172F2AD00339A4D /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DC33A02172F2AC00339A4D /* blue.png */; };
+		B6DC33A72172F2AD00339A4D /* nonbinary.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DC33A12172F2AC00339A4D /* nonbinary.png */; };
+		B6DC33A82172F2AD00339A4D /* pink.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DC33A22172F2AC00339A4D /* pink.png */; };
+		B6DC33A92172F2AD00339A4D /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DC33A32172F2AD00339A4D /* orange.png */; };
 		446AB7B52172C11A005E625A /* Allies.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446AB7B42172C11A005E625A /* Allies.storyboard */; };
-		A874625F2172890F0009E55E /* Orange Button.png in Resources */ = {isa = PBXBuildFile; fileRef = A87462592172890F0009E55E /* Orange Button.png */; };
-		A87462602172890F0009E55E /* Red Button.png in Resources */ = {isa = PBXBuildFile; fileRef = A874625A2172890F0009E55E /* Red Button.png */; };
-		A87462622172890F0009E55E /* Green Button.png in Resources */ = {isa = PBXBuildFile; fileRef = A874625C2172890F0009E55E /* Green Button.png */; };
-		A87462632172890F0009E55E /* Purple Button.png in Resources */ = {isa = PBXBuildFile; fileRef = A874625D2172890F0009E55E /* Purple Button.png */; };
 		A8746265217289820009E55E /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8746264217289820009E55E /* ResourcesViewController.swift */; };
 		A874626721728B320009E55E /* ResourcesSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A874626621728B320009E55E /* ResourcesSB.storyboard */; };
 		A87462692172BAD60009E55E /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87462682172BAD60009E55E /* NewsViewController.swift */; };
@@ -56,6 +79,8 @@
 
 /* Begin PBXFileReference section */
 		30181A6B2172AECB001776C0 /* Orientations_Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Orientations_Storyboard.storyboard; sourceTree = "<group>"; };
+		30181A6D2172C3F6001776C0 /* Gender_Identities_Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Gender_Identities_Storyboard.storyboard; sourceTree = "<group>"; };
+		30181A6F2172C434001776C0 /* Gender_Identities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender_Identities.swift; sourceTree = "<group>"; };
 		30181A712172C5E5001776C0 /* Asexual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asexual.swift; sourceTree = "<group>"; };
 		307B7EDF217288A20070D9EE /* Orientations View Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Orientations View Controller.swift"; sourceTree = "<group>"; };
 		446AB76621727255005E625A /* LGBT Resources Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LGBT Resources Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,13 +99,32 @@
 		446AB7AE2172AC7C005E625A /* eventSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = eventSB.storyboard; sourceTree = "<group>"; };
 		446AB7B02172AC88005E625A /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
 		446AB7B22172B054005E625A /* Discover.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
+		B62C2D0721728C6200CC0E1C /* Orange Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orange Button.png"; sourceTree = "<group>"; };
+		B62C2D0821728C6300CC0E1C /* Red Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red Button.png"; sourceTree = "<group>"; };
+		B62C2D0921728C6300CC0E1C /* Purple Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Purple Button.png"; sourceTree = "<group>"; };
+		B62C2D0A21728C6300CC0E1C /* Yellow Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Yellow Button.png"; sourceTree = "<group>"; };
+		B62C2D0F21728C6C00CC0E1C /* Green Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green Button.png"; sourceTree = "<group>"; };
+		B62C2D1021728C6C00CC0E1C /* Blue Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue Button.png"; sourceTree = "<group>"; };
+		B6DC33842172D62D00339A4D /* genderqueer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = genderqueer.png; path = ../Desktop/genderqueer.png; sourceTree = "<group>"; };
+		B6DC33852172D62D00339A4D /* agender.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = agender.png; path = ../Desktop/agender.png; sourceTree = "<group>"; };
+		B6DC33862172D62D00339A4D /* intersex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = intersex.png; path = ../Desktop/intersex.png; sourceTree = "<group>"; };
+		B6DC33872172D62D00339A4D /* transgender.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = transgender.png; path = ../Desktop/transgender.png; sourceTree = "<group>"; };
+		B6DC33882172D62D00339A4D /* genderfluid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = genderfluid.png; path = ../Desktop/genderfluid.png; sourceTree = "<group>"; };
+		B6DC338E2172EE2100339A4D /* bigender.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bigender.png; path = ../Desktop/bigender.png; sourceTree = "<group>"; };
+		B6DC338F2172EE2200339A4D /* androgynous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = androgynous.png; path = ../Desktop/androgynous.png; sourceTree = "<group>"; };
+		B6DC33902172EE2200339A4D /* cisgender.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cisgender.png; path = ../Desktop/cisgender.png; sourceTree = "<group>"; };
+		B6DC33912172EE2200339A4D /* binary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = binary.png; path = ../Desktop/binary.png; sourceTree = "<group>"; };
+		B6DC33962172F06100339A4D /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green.png; path = ../Desktop/green.png; sourceTree = "<group>"; };
+		B6DC33972172F06200339A4D /* nonconf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nonconf.png; path = ../Desktop/nonconf.png; sourceTree = "<group>"; };
+		B6DC33982172F06200339A4D /* grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grey.png; path = ../Desktop/grey.png; sourceTree = "<group>"; };
+		B6DC33992172F06200339A4D /* purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = purple.png; path = ../Desktop/purple.png; sourceTree = "<group>"; };
+		B6DC339E2172F2AB00339A4D /* question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = question.png; path = ../Desktop/question.png; sourceTree = "<group>"; };
+		B6DC339F2172F2AB00339A4D /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yellow.png; path = ../Desktop/yellow.png; sourceTree = "<group>"; };
+		B6DC33A02172F2AC00339A4D /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blue.png; path = ../Desktop/blue.png; sourceTree = "<group>"; };
+		B6DC33A12172F2AC00339A4D /* nonbinary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nonbinary.png; path = ../Desktop/nonbinary.png; sourceTree = "<group>"; };
+		B6DC33A22172F2AC00339A4D /* pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pink.png; path = ../Desktop/pink.png; sourceTree = "<group>"; };
+		B6DC33A32172F2AD00339A4D /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = orange.png; path = ../Desktop/orange.png; sourceTree = "<group>"; };
 		446AB7B42172C11A005E625A /* Allies.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Allies.storyboard; sourceTree = "<group>"; };
-		A87462582172890F0009E55E /* Blue Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue Button.png"; sourceTree = "<group>"; };
-		A87462592172890F0009E55E /* Orange Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orange Button.png"; sourceTree = "<group>"; };
-		A874625A2172890F0009E55E /* Red Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red Button.png"; sourceTree = "<group>"; };
-		A874625B2172890F0009E55E /* Yellow Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Yellow Button.png"; sourceTree = "<group>"; };
-		A874625C2172890F0009E55E /* Green Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green Button.png"; sourceTree = "<group>"; };
-		A874625D2172890F0009E55E /* Purple Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Purple Button.png"; sourceTree = "<group>"; };
 		A8746264217289820009E55E /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResourcesViewController.swift; path = "../../../../../Volumes/users/a/ad356/LGBT-Resources-Project/ResourcesViewController.swift"; sourceTree = "<group>"; };
 		A874626621728B320009E55E /* ResourcesSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ResourcesSB.storyboard; path = "../../../../../Volumes/users/a/ad356/LGBT-Resources-Project/ResourcesSB.storyboard"; sourceTree = "<group>"; };
 		A87462682172BAD60009E55E /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
@@ -126,12 +170,31 @@
 				446AB77D21727257005E625A /* LGBT Resources ProjectTests */,
 				446AB78821727257005E625A /* LGBT Resources ProjectUITests */,
 				446AB76721727255005E625A /* Products */,
-				A87462582172890F0009E55E /* Blue Button.png */,
-				A874625C2172890F0009E55E /* Green Button.png */,
-				A87462592172890F0009E55E /* Orange Button.png */,
-				A874625D2172890F0009E55E /* Purple Button.png */,
-				A874625A2172890F0009E55E /* Red Button.png */,
-				A874625B2172890F0009E55E /* Yellow Button.png */,
+				B62C2D0721728C6200CC0E1C /* Orange Button.png */,
+				B62C2D0921728C6300CC0E1C /* Purple Button.png */,
+				B62C2D0821728C6300CC0E1C /* Red Button.png */,
+				B62C2D0A21728C6300CC0E1C /* Yellow Button.png */,
+				B62C2D1021728C6C00CC0E1C /* Blue Button.png */,
+				B62C2D0F21728C6C00CC0E1C /* Green Button.png */,
+				B6DC33852172D62D00339A4D /* agender.png */,
+				B6DC33882172D62D00339A4D /* genderfluid.png */,
+				B6DC33842172D62D00339A4D /* genderqueer.png */,
+				B6DC33862172D62D00339A4D /* intersex.png */,
+				B6DC33872172D62D00339A4D /* transgender.png */,
+				B6DC338F2172EE2200339A4D /* androgynous.png */,
+				B6DC338E2172EE2100339A4D /* bigender.png */,
+				B6DC33912172EE2200339A4D /* binary.png */,
+				B6DC33902172EE2200339A4D /* cisgender.png */,
+				B6DC33962172F06100339A4D /* green.png */,
+				B6DC33982172F06200339A4D /* grey.png */,
+				B6DC33972172F06200339A4D /* nonconf.png */,
+				B6DC33992172F06200339A4D /* purple.png */,
+				B6DC33A02172F2AC00339A4D /* blue.png */,
+				B6DC33A12172F2AC00339A4D /* nonbinary.png */,
+				B6DC33A32172F2AD00339A4D /* orange.png */,
+				B6DC33A22172F2AC00339A4D /* pink.png */,
+				B6DC339E2172F2AB00339A4D /* question.png */,
+				B6DC339F2172F2AB00339A4D /* yellow.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,11 +216,13 @@
 				446AB76921727255005E625A /* AppDelegate.swift */,
 				30181A712172C5E5001776C0 /* Asexual.swift */,
 				446AB7AE2172AC7C005E625A /* eventSB.storyboard */,
+				30181A6F2172C434001776C0 /* Gender_Identities.swift */,
 				446AB76D21727255005E625A /* Main.storyboard */,
 				446AB77021727257005E625A /* Assets.xcassets */,
 				446AB77221727257005E625A /* LaunchScreen.storyboard */,
 				BAA34AB82172CC54001CBBD2 /* Connect.storyboard */,
 				446AB77521727257005E625A /* Info.plist */,
+				30181A6D2172C3F6001776C0 /* Gender_Identities_Storyboard.storyboard */,
 				30181A6B2172AECB001776C0 /* Orientations_Storyboard.storyboard */,
 				446AB7B22172B054005E625A /* Discover.storyboard */,
 				446AB7B42172C11A005E625A /* Allies.storyboard */,
@@ -306,20 +371,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30181A6E2172C3F6001776C0 /* Gender_Identities_Storyboard.storyboard in Resources */,
+				B6DC339A2172F06300339A4D /* green.png in Resources */,
+				B6DC338B2172D62E00339A4D /* intersex.png in Resources */,
+				B62C2D0B21728C6300CC0E1C /* Orange Button.png in Resources */,
+				B6DC33A62172F2AD00339A4D /* blue.png in Resources */,
+				B62C2D0C21728C6300CC0E1C /* Red Button.png in Resources */,
 				A87462622172890F0009E55E /* Green Button.png in Resources */,
 				446AB77421727257005E625A /* LaunchScreen.storyboard in Resources */,
-				A874625F2172890F0009E55E /* Orange Button.png in Resources */,
 				A874626721728B320009E55E /* ResourcesSB.storyboard in Resources */,
 				A87462632172890F0009E55E /* Purple Button.png in Resources */,
-				A87462602172890F0009E55E /* Red Button.png in Resources */,
 				446AB7AF2172AC7C005E625A /* eventSB.storyboard in Resources */,
+				B6DC338A2172D62E00339A4D /* agender.png in Resources */,
+				B6DC33A72172F2AD00339A4D /* nonbinary.png in Resources */,
+				B6DC339B2172F06300339A4D /* nonconf.png in Resources */,
+				B6DC33A82172F2AD00339A4D /* pink.png in Resources */,
 				446AB7B32172B054005E625A /* Discover.storyboard in Resources */,
+				B6DC33932172EE2200339A4D /* androgynous.png in Resources */,
+				B6DC33952172EE2200339A4D /* binary.png in Resources */,
+				B6DC339D2172F06300339A4D /* purple.png in Resources */,
+				B6DC338C2172D62E00339A4D /* transgender.png in Resources */,
+				B6DC33A52172F2AD00339A4D /* yellow.png in Resources */,
+				B6DC33892172D62E00339A4D /* genderqueer.png in Resources */,
 				446AB77421727257005E625A /* LaunchScreen.storyboard in Resources */,
+				B62C2D1221728C6C00CC0E1C /* Blue Button.png in Resources */,
+				B6DC338D2172D62E00339A4D /* genderfluid.png in Resources */,
+				30181A6C2172AECB001776C0 /* Orientations_Storyboard.storyboard in Resources */,
+				B62C2D0E21728C6300CC0E1C /* Yellow Button.png in Resources */,
+				B6DC33A42172F2AD00339A4D /* question.png in Resources */,
+				B6DC33922172EE2200339A4D /* bigender.png in Resources */,
+				B6DC33A92172F2AD00339A4D /* orange.png in Resources */,
+				B62C2D0D21728C6300CC0E1C /* Purple Button.png in Resources */,
 				446AB7B52172C11A005E625A /* Allies.storyboard in Resources */,
 				30181A6C2172AECB001776C0 /* Orientations_Storyboard.storyboard in Resources */,
 				BAA34AB92172CC54001CBBD2 /* Connect.storyboard in Resources */,
 				446AB77121727257005E625A /* Assets.xcassets in Resources */,
+				B6DC339C2172F06300339A4D /* grey.png in Resources */,
 				446AB76F21727255005E625A /* Main.storyboard in Resources */,
+				B62C2D1121728C6C00CC0E1C /* Green Button.png in Resources */,
+				B6DC33942172EE2200339A4D /* cisgender.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +445,7 @@
 				BAA34ABB2172DAAF001CBBD2 /* ConnectViewController.swift in Sources */,
 				446AB76C21727255005E625A /* ViewController.swift in Sources */,
 				446AB7B12172AC89005E625A /* EventViewController.swift in Sources */,
+				30181A702172C434001776C0 /* Gender_Identities.swift in Sources */,
 				B6DC33832172C5BE00339A4D /* EventsAnnualViewController.swift in Sources */,
 				446AB76A21727255005E625A /* AppDelegate.swift in Sources */,
 				30181A722172C5E5001776C0 /* Asexual.swift in Sources */,
