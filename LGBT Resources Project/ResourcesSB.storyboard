@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -577,6 +576,6 @@
         <image name="Yellow Button.png" width="1130" height="1206"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="nQz-XY-GnD"/>
+        <segue reference="PVT-wQ-hIH"/>
     </inferredMetricsTieBreakers>
 </document>
