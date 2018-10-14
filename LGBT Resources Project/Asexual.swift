@@ -21,7 +21,13 @@ class Asexual: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func overviewButtonPress(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://www.asexuality.org/?q=overview.html")! as URL, options: [:], completionHandler: nil)
+    }
 
+    @IBAction func forumsButtonPress(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://www.asexuality.org/en/")! as URL, options: [:], completionHandler: nil)
+    }
     /*
     // MARK: - Navigation
 
