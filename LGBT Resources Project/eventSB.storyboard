@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nCd-q7-QP4">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -12,7 +13,7 @@
         <!--Event View Controller-->
         <scene sceneID="gmN-Yh-NNA">
             <objects>
-                <viewController id="nCd-q7-QP4" customClass="EventViewController" customModule="LGBT_Resources_Project" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="EventViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="nCd-q7-QP4" customClass="EventViewController" customModule="LGBT_Resources_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Okc-mg-wpP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -57,6 +58,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R79-d9-ySj">
+                                <rect key="frame" x="16" y="15" width="59" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Home" image="home"/>
+                                <connections>
+                                    <segue destination="9Id-IY-fYp" kind="unwind" unwindAction="unwindToHomeWithSegue:" id="5U9-nB-rgR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="DJm-C3-nh5"/>
@@ -67,6 +76,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Agz-J8-tIL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="9Id-IY-fYp" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="16.800000000000001" y="99.400299850074973"/>
         </scene>
@@ -333,6 +343,14 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2gL-WP-c8d">
+                                <rect key="frame" x="16" y="11" width="59" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Home" image="home"/>
+                                <connections>
+                                    <segue destination="cfu-xq-aBG" kind="unwind" unwindAction="unwindToHomeWithSegue:" id="wy8-Rv-eTd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="AfZ-AR-tt3"/>
@@ -340,6 +358,7 @@
                     <size key="freeformSize" width="375" height="1140"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pkh-z9-rSB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="cfu-xq-aBG" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="781.60000000000002" y="311.24437781109447"/>
         </scene>
@@ -751,6 +770,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YWW-pu-hUs">
+                                <rect key="frame" x="16" y="11" width="59" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Home" image="home"/>
+                                <connections>
+                                    <segue destination="2qI-DR-w6V" kind="unwind" unwindAction="unwindToHomeWithSegue:" id="nG8-yx-KOd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="9dL-m2-sVp"/>
@@ -758,8 +785,12 @@
                     <size key="freeformSize" width="375" height="1000"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AVf-i0-vCS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="2qI-DR-w6V" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1537" y="248"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="home" width="625" height="625"/>
+    </resources>
 </document>
