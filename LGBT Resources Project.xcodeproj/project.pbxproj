@@ -10,6 +10,7 @@
 		30181A6C2172AECB001776C0 /* Orientations_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30181A6B2172AECB001776C0 /* Orientations_Storyboard.storyboard */; };
 		30181A6E2172C3F6001776C0 /* Gender_Identities_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30181A6D2172C3F6001776C0 /* Gender_Identities_Storyboard.storyboard */; };
 		30181A702172C434001776C0 /* Gender_Identities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30181A6F2172C434001776C0 /* Gender_Identities.swift */; };
+		30181A722172C5E5001776C0 /* Asexual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30181A712172C5E5001776C0 /* Asexual.swift */; };
 		307B7EE0217288A20070D9EE /* Orientations View Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307B7EDF217288A20070D9EE /* Orientations View Controller.swift */; };
 		446AB76A21727255005E625A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446AB76921727255005E625A /* AppDelegate.swift */; };
 		446AB76C21727255005E625A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446AB76B21727255005E625A /* ViewController.swift */; };
@@ -46,6 +47,17 @@
 		B6DC33A72172F2AD00339A4D /* nonbinary.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DC33A12172F2AC00339A4D /* nonbinary.png */; };
 		B6DC33A82172F2AD00339A4D /* pink.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DC33A22172F2AC00339A4D /* pink.png */; };
 		B6DC33A92172F2AD00339A4D /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DC33A32172F2AD00339A4D /* orange.png */; };
+		446AB7B52172C11A005E625A /* Allies.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446AB7B42172C11A005E625A /* Allies.storyboard */; };
+		A8746265217289820009E55E /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8746264217289820009E55E /* ResourcesViewController.swift */; };
+		A874626721728B320009E55E /* ResourcesSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A874626621728B320009E55E /* ResourcesSB.storyboard */; };
+		A87462692172BAD60009E55E /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87462682172BAD60009E55E /* NewsViewController.swift */; };
+		A874626B2172BAE70009E55E /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A874626A2172BAE70009E55E /* HelpViewController.swift */; };
+		A874626D2172BAFD0009E55E /* LocalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A874626C2172BAFD0009E55E /* LocalViewController.swift */; };
+		A874626F2172BB0D0009E55E /* InvolvementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A874626E2172BB0D0009E55E /* InvolvementViewController.swift */; };
+		B6DC33812172B74600339A4D /* EventsLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DC33802172B74600339A4D /* EventsLocationViewController.swift */; };
+		B6DC33832172C5BE00339A4D /* EventsAnnualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DC33822172C5BE00339A4D /* EventsAnnualViewController.swift */; };
+		BAA34AB92172CC54001CBBD2 /* Connect.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAA34AB82172CC54001CBBD2 /* Connect.storyboard */; };
+		BAA34ABB2172DAAF001CBBD2 /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA34ABA2172DAAF001CBBD2 /* ConnectViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +81,7 @@
 		30181A6B2172AECB001776C0 /* Orientations_Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Orientations_Storyboard.storyboard; sourceTree = "<group>"; };
 		30181A6D2172C3F6001776C0 /* Gender_Identities_Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Gender_Identities_Storyboard.storyboard; sourceTree = "<group>"; };
 		30181A6F2172C434001776C0 /* Gender_Identities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender_Identities.swift; sourceTree = "<group>"; };
+		30181A712172C5E5001776C0 /* Asexual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asexual.swift; sourceTree = "<group>"; };
 		307B7EDF217288A20070D9EE /* Orientations View Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Orientations View Controller.swift"; sourceTree = "<group>"; };
 		446AB76621727255005E625A /* LGBT Resources Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LGBT Resources Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		446AB76921727255005E625A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +124,18 @@
 		B6DC33A12172F2AC00339A4D /* nonbinary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nonbinary.png; path = ../Desktop/nonbinary.png; sourceTree = "<group>"; };
 		B6DC33A22172F2AC00339A4D /* pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pink.png; path = ../Desktop/pink.png; sourceTree = "<group>"; };
 		B6DC33A32172F2AD00339A4D /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = orange.png; path = ../Desktop/orange.png; sourceTree = "<group>"; };
+		446AB7B42172C11A005E625A /* Allies.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Allies.storyboard; sourceTree = "<group>"; };
+		A8746264217289820009E55E /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResourcesViewController.swift; path = "../../../../../Volumes/users/a/ad356/LGBT-Resources-Project/ResourcesViewController.swift"; sourceTree = "<group>"; };
+		A874626621728B320009E55E /* ResourcesSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ResourcesSB.storyboard; path = "../../../../../Volumes/users/a/ad356/LGBT-Resources-Project/ResourcesSB.storyboard"; sourceTree = "<group>"; };
+		A87462682172BAD60009E55E /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		A874626A2172BAE70009E55E /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		A874626C2172BAFD0009E55E /* LocalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalViewController.swift; sourceTree = "<group>"; };
+		A874626E2172BB0D0009E55E /* InvolvementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvolvementViewController.swift; sourceTree = "<group>"; };
+		A8F476472172F2910033BC5E /* ResourcesSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ResourcesSB.storyboard; sourceTree = "<group>"; };
+		B6DC33802172B74600339A4D /* EventsLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsLocationViewController.swift; sourceTree = "<group>"; };
+		B6DC33822172C5BE00339A4D /* EventsAnnualViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsAnnualViewController.swift; sourceTree = "<group>"; };
+		BAA34AB82172CC54001CBBD2 /* Connect.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Connect.storyboard; sourceTree = "<group>"; };
+		BAA34ABA2172DAAF001CBBD2 /* ConnectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,17 +211,21 @@
 		446AB76821727255005E625A /* LGBT Resources Project */ = {
 			isa = PBXGroup;
 			children = (
+				A8F476472172F2910033BC5E /* ResourcesSB.storyboard */,
 				446AB7972172852C005E625A /* ViewControllers */,
 				446AB76921727255005E625A /* AppDelegate.swift */,
+				30181A712172C5E5001776C0 /* Asexual.swift */,
 				446AB7AE2172AC7C005E625A /* eventSB.storyboard */,
 				30181A6F2172C434001776C0 /* Gender_Identities.swift */,
 				446AB76D21727255005E625A /* Main.storyboard */,
 				446AB77021727257005E625A /* Assets.xcassets */,
 				446AB77221727257005E625A /* LaunchScreen.storyboard */,
+				BAA34AB82172CC54001CBBD2 /* Connect.storyboard */,
 				446AB77521727257005E625A /* Info.plist */,
 				30181A6D2172C3F6001776C0 /* Gender_Identities_Storyboard.storyboard */,
 				30181A6B2172AECB001776C0 /* Orientations_Storyboard.storyboard */,
 				446AB7B22172B054005E625A /* Discover.storyboard */,
+				446AB7B42172C11A005E625A /* Allies.storyboard */,
 			);
 			path = "LGBT Resources Project";
 			sourceTree = "<group>";
@@ -222,9 +251,18 @@
 		446AB7972172852C005E625A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				A8746264217289820009E55E /* ResourcesViewController.swift */,
+				A874626621728B320009E55E /* ResourcesSB.storyboard */,
 				446AB7B02172AC88005E625A /* EventViewController.swift */,
 				446AB76B21727255005E625A /* ViewController.swift */,
 				307B7EDF217288A20070D9EE /* Orientations View Controller.swift */,
+				A87462682172BAD60009E55E /* NewsViewController.swift */,
+				A874626A2172BAE70009E55E /* HelpViewController.swift */,
+				A874626C2172BAFD0009E55E /* LocalViewController.swift */,
+				A874626E2172BB0D0009E55E /* InvolvementViewController.swift */,
+				BAA34ABA2172DAAF001CBBD2 /* ConnectViewController.swift */,
+				B6DC33802172B74600339A4D /* EventsLocationViewController.swift */,
+				B6DC33822172C5BE00339A4D /* EventsAnnualViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -339,6 +377,10 @@
 				B62C2D0B21728C6300CC0E1C /* Orange Button.png in Resources */,
 				B6DC33A62172F2AD00339A4D /* blue.png in Resources */,
 				B62C2D0C21728C6300CC0E1C /* Red Button.png in Resources */,
+				A87462622172890F0009E55E /* Green Button.png in Resources */,
+				446AB77421727257005E625A /* LaunchScreen.storyboard in Resources */,
+				A874626721728B320009E55E /* ResourcesSB.storyboard in Resources */,
+				A87462632172890F0009E55E /* Purple Button.png in Resources */,
 				446AB7AF2172AC7C005E625A /* eventSB.storyboard in Resources */,
 				B6DC338A2172D62E00339A4D /* agender.png in Resources */,
 				B6DC33A72172F2AD00339A4D /* nonbinary.png in Resources */,
@@ -360,6 +402,9 @@
 				B6DC33922172EE2200339A4D /* bigender.png in Resources */,
 				B6DC33A92172F2AD00339A4D /* orange.png in Resources */,
 				B62C2D0D21728C6300CC0E1C /* Purple Button.png in Resources */,
+				446AB7B52172C11A005E625A /* Allies.storyboard in Resources */,
+				30181A6C2172AECB001776C0 /* Orientations_Storyboard.storyboard in Resources */,
+				BAA34AB92172CC54001CBBD2 /* Connect.storyboard in Resources */,
 				446AB77121727257005E625A /* Assets.xcassets in Resources */,
 				B6DC339C2172F06300339A4D /* grey.png in Resources */,
 				446AB76F21727255005E625A /* Main.storyboard in Resources */,
@@ -389,11 +434,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A874626B2172BAE70009E55E /* HelpViewController.swift in Sources */,
+				A8746265217289820009E55E /* ResourcesViewController.swift in Sources */,
+				446AB76C21727255005E625A /* ViewController.swift in Sources */,
+				446AB7B12172AC89005E625A /* EventViewController.swift in Sources */,
+				A87462692172BAD60009E55E /* NewsViewController.swift in Sources */,
+				A874626F2172BB0D0009E55E /* InvolvementViewController.swift in Sources */,
+				446AB76A21727255005E625A /* AppDelegate.swift in Sources */,
+				A874626D2172BAFD0009E55E /* LocalViewController.swift in Sources */,
+				BAA34ABB2172DAAF001CBBD2 /* ConnectViewController.swift in Sources */,
 				446AB76C21727255005E625A /* ViewController.swift in Sources */,
 				446AB7B12172AC89005E625A /* EventViewController.swift in Sources */,
 				30181A702172C434001776C0 /* Gender_Identities.swift in Sources */,
+				B6DC33832172C5BE00339A4D /* EventsAnnualViewController.swift in Sources */,
 				446AB76A21727255005E625A /* AppDelegate.swift in Sources */,
+				30181A722172C5E5001776C0 /* Asexual.swift in Sources */,
 				307B7EE0217288A20070D9EE /* Orientations View Controller.swift in Sources */,
+				B6DC33812172B74600339A4D /* EventsLocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,8 +626,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5U54AZ3696;
+				DEVELOPMENT_TEAM = QA4NA2TUQA;
 				INFOPLIST_FILE = "LGBT Resources Project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -587,8 +645,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5U54AZ3696;
+				DEVELOPMENT_TEAM = QA4NA2TUQA;
 				INFOPLIST_FILE = "LGBT Resources Project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
