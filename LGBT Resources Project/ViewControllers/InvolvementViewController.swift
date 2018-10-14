@@ -9,7 +9,11 @@
 import UIKit
 
 class InvolvementViewController: UIViewController {
-
+    @IBOutlet weak var HRCLink: UIButton!
+    @IBOutlet weak var TaskForceLink: UIButton!
+    @IBOutlet weak var GLAADButton: UIButton!
+    @IBOutlet weak var ACLUButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -31,5 +35,19 @@ class InvolvementViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    //
+    @IBAction func HRCLinkPressed(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://www.hrc.org/explore/topic/state-advocacy")! as URL, options: [:], completionHandler: nil)
 
+    }
+    @IBAction func TaskForcePressed(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "http://www.thetaskforce.org/current-task-force-actions.html")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func GLAADButtonPressed(_ sender: Any) {
+         UIApplication.shared.open(URL(string: "https://www.glaad.org")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func ACLUButtonPressed(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://www.aclu.org/issues/lgbt-rights")! as URL, options: [:], completionHandler: nil)
+    }
+    
 }
