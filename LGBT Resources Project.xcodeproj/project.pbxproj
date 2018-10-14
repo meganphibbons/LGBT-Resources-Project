@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		30181A6C2172AECB001776C0 /* Orientations_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30181A6B2172AECB001776C0 /* Orientations_Storyboard.storyboard */; };
+		30181A722172C5E5001776C0 /* Asexual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30181A712172C5E5001776C0 /* Asexual.swift */; };
 		307B7EE0217288A20070D9EE /* Orientations View Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307B7EDF217288A20070D9EE /* Orientations View Controller.swift */; };
 		446AB76A21727255005E625A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446AB76921727255005E625A /* AppDelegate.swift */; };
 		446AB76C21727255005E625A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446AB76B21727255005E625A /* ViewController.swift */; };
@@ -51,6 +52,7 @@
 
 /* Begin PBXFileReference section */
 		30181A6B2172AECB001776C0 /* Orientations_Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Orientations_Storyboard.storyboard; sourceTree = "<group>"; };
+		30181A712172C5E5001776C0 /* Asexual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asexual.swift; sourceTree = "<group>"; };
 		307B7EDF217288A20070D9EE /* Orientations View Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Orientations View Controller.swift"; sourceTree = "<group>"; };
 		446AB76621727255005E625A /* LGBT Resources Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LGBT Resources Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		446AB76921727255005E625A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 			children = (
 				446AB7972172852C005E625A /* ViewControllers */,
 				446AB76921727255005E625A /* AppDelegate.swift */,
+				30181A712172C5E5001776C0 /* Asexual.swift */,
 				446AB7AE2172AC7C005E625A /* eventSB.storyboard */,
 				446AB76D21727255005E625A /* Main.storyboard */,
 				446AB77021727257005E625A /* Assets.xcassets */,
@@ -328,6 +331,7 @@
 				446AB7B12172AC89005E625A /* EventViewController.swift in Sources */,
 				B6DC33832172C5BE00339A4D /* EventsAnnualViewController.swift in Sources */,
 				446AB76A21727255005E625A /* AppDelegate.swift in Sources */,
+				30181A722172C5E5001776C0 /* Asexual.swift in Sources */,
 				307B7EE0217288A20070D9EE /* Orientations View Controller.swift in Sources */,
 				B6DC33812172B74600339A4D /* EventsLocationViewController.swift in Sources */,
 			);
